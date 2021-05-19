@@ -1,9 +1,9 @@
 export const homeObjOne = {
     id: 'about',
     colorBg: false,
-    topLine : '#despremine',
+    topLine : '#DespreMine',
     headline: 'Ma numesc Alina si indeplinesc dorinte in lut! ',
-    description: 'Cadouri artizanale, personalizate si facute cu dragoste pentru cei dragi!',
+    description: 'Mama, sotie si iubitoare de frumos, mestesugarit si produse artizanale',
     buttonLabel: 'Povestea mea',
     imgStart: true,
     

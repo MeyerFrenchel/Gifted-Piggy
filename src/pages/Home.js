@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroSection from '../components/HeroSection/HeroSection';
+import AboutSection from '../components/HeroSection/AboutSection';
 import InfoSection from '../components/HeroSection/InfoSection';
 import {homeObjOne} from '../components/HeroSection/Data';
 
@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <>
             <InfoSection/>
-            <HeroSection {...homeObjOne}/>
+            <AboutSection {...homeObjOne}/>
         </>
     );
 };
