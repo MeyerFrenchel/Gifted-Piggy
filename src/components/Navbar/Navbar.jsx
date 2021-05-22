@@ -16,13 +16,18 @@ const Navbar = ({ toggle }) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
+                            <NavLinks to='despremine'>
+                            Despre Mine
+                            </NavLinks>
+                        </NavItem>
+                        <NavItem>
                             <NavLinks to='produse'>
                             Produse
                             </NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='about'>
-                            About
+                            <NavLinks to='servicii'>
+                            Servicii
                             </NavLinks>
                         </NavItem>
                         <NavItem>

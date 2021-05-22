@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '../Button/Button';
-import LandImage from '../../assets/Paul-Padurariu-fotografie-craciun2020-12.jpg';
+import LandImage from '../../assets/meyer revision3.svg';
 import {
     InfoContainer, 
     InfoWrapper,
@@ -31,9 +31,9 @@ const HeroSection = ({colorBg, imgStart, topLine, headline, description, buttonL
                         <BtnWrap>
                         <Button to="/povestea-mea"
                         big='true' fontbig='true'
-                        smooth={true}
-                        duration={500}
-                        spy={true}
+                        smooth='true'
+                        duration={900}
+                        spy='true'
                         exact='true'
                         >{buttonLabel}</Button>
                         </BtnWrap>

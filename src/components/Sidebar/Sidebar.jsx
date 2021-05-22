@@ -18,13 +18,16 @@ const Sidebar = ({ isOpen, toggle }) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to='/produse' onClick={toggle}>
+                    <SidebarLink to='produse' onClick={toggle}>
                         Produse
                     </SidebarLink>
-                    <SidebarLink to='/about' onClick={toggle}>
-                        About
+                    <SidebarLink to='despremine' onClick={toggle}>
+                        Despre Mine
                     </SidebarLink>
-                    <SidebarLink to='/testimoniale' onClick={toggle}>
+                    <SidebarLink to='servicii' onClick={toggle}>
+                        Servicii
+                    </SidebarLink>
+                    <SidebarLink to='testimoniale' onClick={toggle}>
                         Testimoniale
                     </SidebarLink>
                 </SidebarMenu>
