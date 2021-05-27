@@ -5,6 +5,7 @@ import {homeObjOne} from '../components/HeroSection/Data';
 import ServicesSection from '../components/HeroSection/ServicesSection';
 import ProductSection from '../components/HeroSection/ProductsSection';
 import TestimonialSection from '../components/HeroSection/TestimonialSection';
+import Footer from '../components/Footer/Footer';
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
             <ServicesSection/>
             <ProductSection/>
             <TestimonialSection/>
+            
         </>
     );
 };

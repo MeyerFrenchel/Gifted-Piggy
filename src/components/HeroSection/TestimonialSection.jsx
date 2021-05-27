@@ -17,6 +17,12 @@ export const ReviewContainer = styled(ServicesContainer)`
     `;
 
     export const TestimonialCarousel = styled(Carousel)`
+    .hHQEfu {
+        color: var(--clr-primary-5);
+    }
+    .hHQEfu:hover:enabled, .hHQEfu:focus:enabled {
+    background-color: var(--clr-primary-4);
+    }
         @media screen and (max-width: 768px) {
     .rec-arrow-right, .rec-arrow-left{
         min-width: 30px;
@@ -24,6 +30,11 @@ export const ReviewContainer = styled(ServicesContainer)`
         height: 35px;
         font-size: 0.7rem;
     }
+    .hHQEfu:hover:enabled, .hHQEfu:focus:enabled {
+    
+    background-color: var(--clr-primary-4);
+    
+}
 }
     `
 

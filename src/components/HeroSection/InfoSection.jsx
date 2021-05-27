@@ -18,7 +18,7 @@ import { Button } from '../Button/Button';
 const InfoSection = () => {
     return (
     <>
-    <InfoSec >
+    <InfoSec id='landingpage'>
     <Container>
       <InfoRow >
         <InfoColumn>

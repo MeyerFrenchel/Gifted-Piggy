@@ -8,6 +8,7 @@ import Sidebar from './components/Sidebar/Sidebar';
 import Home from './pages/Home';
 import GlobalStyle from './globalStyles';
 import './App.css';
+import Footer from './components/Footer/Footer';
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -25,7 +26,8 @@ function App() {
         <Switch>
         <Route path="/" exact component={Home}/>
         </Switch>
-      </div>
+        <Footer/>
+        </div>
     </Router>    
   );
 }
