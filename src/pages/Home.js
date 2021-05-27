@@ -4,6 +4,7 @@ import InfoSection from '../components/HeroSection/InfoSection';
 import {homeObjOne} from '../components/HeroSection/Data';
 import ServicesSection from '../components/HeroSection/ServicesSection';
 import ProductSection from '../components/HeroSection/ProductsSection';
+import TestimonialSection from '../components/HeroSection/TestimonialSection';
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <AboutSection {...homeObjOne}/>
             <ServicesSection/>
             <ProductSection/>
+            <TestimonialSection/>
         </>
     );
 };

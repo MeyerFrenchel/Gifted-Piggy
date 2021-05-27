@@ -42,19 +42,20 @@ export const PricingContainer = styled.div`
   }
 `;
 
-export const PricingCard = styled(Link)`
+export const PricingCard = styled.div`
   background: var(--clr-primary-2);
   box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 15%);
   width: 300px;
   height: 600px;
   text-decoration: none;
   border-radius: 4px;
+  transition: all .3s ease-in-out;
   &:nth-child(2) {
     margin: 24px;
   }
   &:hover {
-    transform: scale(1.06);
-    transition: all 0.3s ease-out;
+    transform: scale(1.03);
+    transition: all .3s ease-in-out;
     color: #1c2237;
   }
   @media screen and (max-width: 960px) {

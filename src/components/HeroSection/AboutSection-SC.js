@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
+
     color: #fff;
     background: ${({colorBg}) =>(colorBg ? 'var(--clr-primary-2)' : '#fff')};
 
@@ -12,6 +13,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
+    height: 100vh;
     max-height: 1200px;
     width: 100%;
     max-width: 1300px;

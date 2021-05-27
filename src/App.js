@@ -1,13 +1,13 @@
 import React,{useState} from 'react';
 
-import './App.css';
+
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Sidebar from './components/Sidebar/Sidebar';
 import Home from './pages/Home';
 import GlobalStyle from './globalStyles';
-
+import './App.css';
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 

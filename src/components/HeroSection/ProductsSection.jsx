@@ -74,7 +74,7 @@ function ProductSection() {
                   <PricingCardFeature>Unlimited Budget</PricingCardFeature>
                   <PricingCardFeature>24/7 Support</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button>SHop NOW</Button>
+                <Button to='/diverse'>SHop NOW</Button>
               </PricingCardInfo>
             </PricingCard>
           </PricingContainer>

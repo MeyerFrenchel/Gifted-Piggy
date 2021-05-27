@@ -26,7 +26,7 @@ export const ServicesWrapper = styled.div`
     padding: 0 50px;
     background-image: url(${img});
     background-color: var(--clr-primary-2);
-    background-position: center;
+    background-position: 5% 62%;
 
     @media screen and (max-width: 1000px) {
         grid-template-columns:  1fr 1fr;
@@ -45,7 +45,7 @@ export const ServicesCard = styled.div`
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    max-height: 340px;
+    max-height: 360px;
     padding: 30px;
     box-shadow: 0 10x 30x rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease-in-out;
