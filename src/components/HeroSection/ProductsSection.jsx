@@ -40,7 +40,7 @@ function ProductSection() {
                   <PricingCardFeature>Personalizare</PricingCardFeature>
                   <PricingCardFeature>Retargeting analytics</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button>SHop NOW</Button>
+                <Button to='/canite'>SHop NOW</Button>
               </PricingCardInfo>
             </PricingCard>
             <PricingCard to='/sign-up'>
@@ -57,7 +57,7 @@ function ProductSection() {
                   <PricingCardFeature>$50,000 Budget</PricingCardFeature>
                   <PricingCardFeature>Lead Gen Analytics</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button>SHop NOW</Button>
+                <Button to='/tablouri'>SHop NOW</Button>
               </PricingCardInfo>
             </PricingCard>
             <PricingCard to='/sign-up'>

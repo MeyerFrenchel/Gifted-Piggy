@@ -22,7 +22,7 @@ const Footer = () => {
                         TERMENI DE FOLOSINTA
                         </FooterLink>
                         <FooterLink to='/aboutfimo'>
-                        CE ESTE FIMO?
+                        CE ESTE LUTUL POLIMERIC?
                         </FooterLink>
                     </FooterLinksItems>
 

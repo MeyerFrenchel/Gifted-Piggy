@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import {FaBars} from 'react-icons/fa';
-import {LogoImg, Nav, NavContainer, NavLogo, MobileIcon, NavLinks, NavItem, NavMenu, NavBtn, NavBtnLink} from './Navbar-SC';
+import {LogoImg, Nav, NavContainer, NavLogo, MobileIcon, NavLinks, NavItem, NavMenu, NavBtn, NavBtnLink, WishlistLink, ItemCount, ItemCountWrapper} from './Navbar-SC';
 import LogoPic from '../../assets/Copy of THE GIFTED PIGGY.png';
+import WishlistContext from '../../context/wishlist/WishlistContext';
 
 const Navbar = ({ toggle }) => {
+    const {wishlistItems, showWishlist} = useContext(WishlistContext);
     return (
         <>
             <Nav>
@@ -41,6 +43,17 @@ const Navbar = ({ toggle }) => {
                         Contact
                         </NavBtnLink>
                     </NavBtn>
+                    <WishlistLink to="/wishlist">
+                    <i className="fas fa-heart" 
+                    
+                    onClick={showWishlist}></i>
+                    {wishlistItems.length > 0 && (
+                        <ItemCountWrapper>
+                        <ItemCount>{wishlistItems.length}</ItemCount>
+                  </ItemCountWrapper>
+                    )}
+                    
+                    </WishlistLink>
                 </NavContainer>
             </Nav>
         </>

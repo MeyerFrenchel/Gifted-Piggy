@@ -133,3 +133,28 @@ export const NavBtnLink = styled(LinkR)`
         box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
     }
 `;
+
+export const WishlistLink = styled(LinkR)`
+    align-self: center;
+    position: relative;
+    color: var(--clr-primary-3);
+`;
+
+export const ItemCountWrapper = styled.div`
+        position: absolute;
+    display: grid;
+    place-items: center;
+    background-color: var(--clr-primary-2);
+    z-index: 10;
+    border-radius: 50%;
+    font-size: 10px;
+    height: 14px;
+    width: 14px;
+    top: -30%;
+    right: -50%;
+`;
+
+export const ItemCount = styled.span`
+    color: var(--clr-primary-5);
+    font-weight: 600;
+`;

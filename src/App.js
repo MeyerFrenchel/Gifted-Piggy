@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import GlobalStyle from './globalStyles';
 import './App.css';
 import Footer from './components/Footer/Footer';
+import Shop from './pages/Shop/Shop';
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -25,6 +26,7 @@ function App() {
         <Navbar toggle={toggle}/>
         <Switch>
         <Route path="/" exact component={Home}/>
+        <Route path="/shop" component={Shop}/>
         </Switch>
         <Footer/>
         </div>
