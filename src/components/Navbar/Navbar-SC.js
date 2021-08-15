@@ -134,7 +134,7 @@ export const NavBtnLink = styled(LinkR)`
     }
 `;
 
-export const WishlistLink = styled(LinkR)`
+export const WishlistLink = styled.div`
     align-self: center;
     position: relative;
     color: var(--clr-primary-3);

@@ -3,26 +3,26 @@ import WishlistContext from './WishlistContext';
 import WishlistReducer from './WishlistReducer'
 import {SHOW_HIDE_WISHLIST, ADD_TO_WISHLIST, REMOVE_ITEM} from '../Types';
 
-const WishlistState = ({children}) => {
+const WishlistState = ({ children }) => {
 
-        const initialState = {
+        const initalState = {
             showWishlist: false,
-            wishlistItems: []
+            wishlistItems: [],
         };
 
-        const [state, dispatch] = useReducer(WishlistReducer, initialState);
+        const [state, dispatch] = useReducer(WishlistReducer, initalState);
 
-        const addToWishlist = item => {
-            dispatch({type: ADD_TO_WISHLIST, payload: item})
-        }
+        const addToWishlist = (item) => {
+            dispatch({ type: ADD_TO_WISHLIST, payload: item});
+        };
 
         const showHideWishlist = () => {
-            dispatch({type: SHOW_HIDE_WISHLIST})
-        }
+            dispatch({ type: SHOW_HIDE_WISHLIST});
+        };
 
-        const removeItem = id => {
-            dispatch({type: REMOVE_ITEM, payload: id})
-        }
+        const removeItem = (id) => {
+            dispatch({ type: REMOVE_ITEM, payload: id});
+        };
 
     return(
         <WishlistContext.Provider value={{
@@ -34,7 +34,7 @@ const WishlistState = ({children}) => {
         }}>
             {children}
         </WishlistContext.Provider>
-    )
-}
+    );
+};
 
 export default WishlistState;

@@ -6,6 +6,7 @@ import WishlistContext from '../../context/wishlist/WishlistContext';
 
 const Navbar = ({ toggle }) => {
     const {wishlistItems, showWishlist} = useContext(WishlistContext);
+    console.log(showWishlist);
     return (
         <>
             <Nav>
